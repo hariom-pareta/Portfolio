@@ -2,7 +2,7 @@ import React from "react";
 
 import pic from "../../public/photo.avif";
 
-import { FaSquareFacebook } from "react-icons/fa6";
+import { FaInstagram, FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa6";
@@ -37,11 +37,10 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+            My name is Hariom Pareta, and I am currently pursuing a full-time
+             Master’s in Computer Applications (MCA) at Jawaharlal Nehru University, New Delhi.
+             I completed my Bachelor’s degree in Mathematics from Government College, Kota, 
+             where I developed a strong foundation in problem-solving and logical thinking.
             </p>
             <br />
             {/* social media icons */}
@@ -50,23 +49,23 @@ function Home() {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/profile.php?id=61555498439423" target="_blank">
                       <FaSquareFacebook className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/hariompareta/" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/" target="_blank">
+                    <a href="www.youtube.com/@hari761_" target="_blank">
                       <IoLogoYoutube className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://t.me/" target="_blank">
-                      <FaTelegram className="text-2xl cursor-pointer" />
+                    <a href="https://www.instagram.com/lxmn7_/" target="_blank">
+                      <FaInstagram className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                 </ul>
